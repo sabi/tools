@@ -1,3 +1,8 @@
+#!/usr/bin/python3
+
+# The Magi
+# Sabi. Simple, Lightweight, but Not Beautiful
+
 import string, random, sys, os
 
 
