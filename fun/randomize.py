@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-# The Magi
+# randomize.py
 # Sabi. Simple, Lightweight, but Not Beautiful
 
 import random, sys, os, string
