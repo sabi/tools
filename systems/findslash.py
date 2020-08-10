@@ -12,7 +12,7 @@ version = 1.0
 
 def help():
     sys.exit("""
-python3 where_is_slash.py [option]
+python3 findslash.py [option]
 
 Options:
     -h  --help          : print this menu
