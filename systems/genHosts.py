@@ -39,8 +39,6 @@ def writeHosts(bigDict):
                 hfile.write(server + "\n")
             hfile.write("\n")
 
-
-
 # Start Program
 if len(sys.argv) > 1:
     if sys.argv[1] in ["-h","--help"]:
