@@ -20,3 +20,8 @@ distinguish / devices from data storage disks.  Pretty slapped together.
 This reads the current Ansible hosts file and then allows you to conveniently add new hosts to the file.  
 `python3 genHosts.py name_of_host category_for_hosts_file`
 I am using this appended to my install script for each new server installation so that my Ansible files stay up to date.
+
+### genHosts-WSGI.py
+This is a garbage quick script that will start a server listening on 11110.  You can start this and then call to it to update hosts with `genHosts.py`.
+*Note*: This requires that genHosts.py is installed to your path. 
+`curl webserver:11110/ansible_category/hostname`
