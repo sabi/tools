@@ -14,5 +14,5 @@ Sabi. Simple, Lightweight, but Not Beautiful.
   - `# systemctl enable genHosts`
 
 ## How to use
-Anytime you need to add a new host to your Ansible hosts file.  `curl http://your_ansible_master_ip:11110/ansible_category/hostname_of_new_node`
-*Suggestion*: Consider appending `curl http://your_ansible_master_ip:11110/$1/$2` to your installation scripts so that you can keep your hosts file up to date as you build new servers.
+- Anytime you need to add a new host to your Ansible hosts file.  `curl http://your_ansible_master_ip:11110/ansible_category/hostname_of_new_node`
+- *Suggestion*: Consider appending `curl http://your_ansible_master_ip:11110/$1/$2` to your installation scripts so that you can keep your hosts file up to date as you build new servers.
