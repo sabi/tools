@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-# genHosts-WSGI.py
+# genHosts - server.py
 # Sabi. Simple, Lightweight, but Not Beautiful
 
 # See LICENSE for a copy of the MIT License (found in the /tools directory)
