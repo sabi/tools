@@ -18,5 +18,6 @@ Sabi. Simple, Lightweight, but Not Beautiful.
 - Edit the `hostsFile` variable in `genHosts.py`.  This should be the path of your Ansible hosts file.
 
 ## How to use
+- Start server `gunicorn --bind 0.0.0.0:11110 -w 4 server.py`
 - Anytime you need to add a new host to your Ansible hosts file.  `curl http://your_ansible_master_ip:11110/ansible_category/hostname_of_new_node`
 - *Suggestion*: Consider appending `curl http://your_ansible_master_ip:11110/$1/$2` to your installation scripts so that you can keep your hosts file up to date as you build new servers.
