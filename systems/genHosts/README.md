@@ -1,5 +1,12 @@
 # genHosts
 Sabi. Simple, Lightweight, but Not Beautiful.
+
+## Requirements
+- Linux environment
+- sudo/root permissions to do installation
+- python3, flask, and gunicorn
+  - `apt install python3 python3-pip`
+  - `pip3 install flask gunicorn`
  
 ## Setup
 - Download and extract this genHosts directory
