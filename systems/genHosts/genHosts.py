@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 
-# genHosts.py
+# genHosts - genHosts.py
 # Sabi. Simple, Lightweight, but Not Beautiful
 
 # See LICENSE for a copy of the MIT License (found in the /tools directory)
