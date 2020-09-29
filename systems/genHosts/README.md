@@ -15,6 +15,7 @@ Sabi. Simple, Lightweight, but Not Beautiful.
 - Create an easy to call symlink
   - `# ln -s /usr/local/bin/genHosts.py /usr/local/bin/genHosts`
 - Consider creating a systemd service to start genHosts at boot
+- Edit the `hostsFile` variable in `genHosts.py`.  This should be the path of your Ansible hosts file.
 
 ## How to use
 - Anytime you need to add a new host to your Ansible hosts file.  `curl http://your_ansible_master_ip:11110/ansible_category/hostname_of_new_node`
