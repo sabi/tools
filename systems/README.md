@@ -16,5 +16,5 @@ This generates a list of block devices that contain / and a list of devices that
 If someone wants to make this more general purpose, instead of checking against the size of the disk, there is a better alternative.  This was built to simply
 distinguish / devices from data storage disks.  Pretty slapped together.
 
-### genHosts
+### [antsible](https://github.com/sabi/antsible)
 This is a webserver for adding new hosts to Ansible on the fly.  By sending `curl http://your_ansible_master_ip:11110/ansible_category/hostname_of_new_node` you can add a server to a specific Ansible category in your Ansible hosts file.  Upon new server setups, I typically run the same script that I grab from a private webserver that adds user accounts, sets up software, configs, etc.  By appending the curl statement above to the bottom of my installations, I can ensure that my Ansible hosts file is up to date always.
