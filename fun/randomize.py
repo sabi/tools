@@ -12,10 +12,10 @@ def randomizeName(listing):
     newName = ""
     if "/" in listing:
         path = listing.rsplit("/")[0] + "/"
-        ext = listing.rsplit(".")[1]
+        ext = listing.rsplit(".")[-1]
         oldName = listing.rsplit("/")[1].rsplit(".")[0]
     else:
-        ext = listing.rsplit(".")[1]
+        ext = listing.rsplit(".")[-1]
         oldName = listing.rsplit(".")[0]
 
     for i in oldName:
@@ -38,18 +38,7 @@ def randomizeName(listing):
 
 def directoryCrawl(listing):
     print(listing + " is a directory. Skipping.")
-
-    """
-    # Future Addition: Run directory crawl if -d flag present
-    # Incomplete, not working logic.
-
-    files = os.listdir(listing)
-    for f in files:
-        if os.path.isdir(listing + "/" + f):
-            directoryCrawl(listing + "/" + f)
-        else:
-            randomizeName(listing)
-    """
+    # TODO: Actually add this
 
 #################
 # Start Program #
